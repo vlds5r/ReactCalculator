@@ -9,6 +9,7 @@ function NumberInput ({ name, label, value, onChange }) {
                 value={value}
                 type="number"
                 name={name}
+                inputMode="numeric"
                 required
             />
         </label>
