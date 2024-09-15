@@ -100,3 +100,10 @@ label > input:focus {
   padding: 1rem;
   width: 90%;
 }
+
+@media (max-width: 600px) {
+  .App {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
